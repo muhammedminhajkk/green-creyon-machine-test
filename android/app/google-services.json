@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "410349255962",
+    "project_id": "green-creyon",
+    "storage_bucket": "green-creyon.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410349255962:android:d908963324a56c9c5340a3",
+        "android_client_info": {
+          "package_name": "com.example.green_creyon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyCXZBEVMCPTsOeUP3j6URcut0ger-i6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
