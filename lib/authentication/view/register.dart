@@ -2,7 +2,6 @@ import 'dart:developer';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:green_craeon_machine_test/authentication/view/login.dart';
 import 'package:green_craeon_machine_test/homepage/view/home_page.dart';
 
 class RegisterPage extends StatelessWidget {
@@ -99,16 +98,16 @@ user =userCredential.user?.email.toString();
                 style: const TextStyle(color: Colors.white),
               ),
             ),
-            InkWell(
-              onTap: () {
-                Navigator.of(context)
-                    .pushReplacement(MaterialPageRoute(builder: (context) {
-                  return const LoginPage();
-                }));
-              },
-              child:
-                  const Text('Already Have An Account?                Log in'),
-            ),
+            // InkWell(
+            //   onTap: () {
+            //     Navigator.of(context)
+            //         .pushReplacement(MaterialPageRoute(builder: (context) {
+            //       return const LoginPage();
+            //     }));
+            //   },
+            //   child:
+            //       const Text('Already Have An Account?                Log in'),
+            // ),
             const Expanded(
               flex: 3,
               child: SizedBox(),
